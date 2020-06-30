@@ -15,14 +15,14 @@ header{
 }
 
 main{
+  height: 400px;
   background-color: green;
-  height: 600px;
   margin: 10px 0;
 }
 
-.main::after{
+main::after{
   content: "";
-  display: table;
+  display: block;
   clear: both;
 }
 
@@ -48,11 +48,13 @@ main{
 }
 
 .part{
-  height: 49%;
+  height: 47%;
   width: 100%;
   background-color: violet;
+  margin-bottom: 2%;
 }
 
-.top{
-  margin-bottom: 2%;
+footer{
+  height: 100px;
+  background-color: lightblue;
 }
