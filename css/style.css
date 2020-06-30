@@ -14,3 +14,29 @@ main{
   background-color: green;
   height: 600px;
 }
+
+.main::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clm-left{
+  float: left;
+  height: 75%;
+  width: 25%;
+  background-color: #DA70D6;
+}
+
+.clm-center{
+  float: left;
+  height: 100%;
+  width: 50%;
+  background-color: #8B008B
+}
+.clm-right{
+  float: left;
+  height: 100%;
+  width: 25%;
+  background-color: #DA70D6
+}
