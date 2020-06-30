@@ -4,6 +4,10 @@
   padding: 0;
 }
 
+.container{
+  width: 95%;
+  margin: auto;
+}
 
 header{
   height: 200px;
@@ -13,6 +17,7 @@ header{
 main{
   background-color: green;
   height: 600px;
+  margin: 10px 0;
 }
 
 .main::after{
@@ -24,7 +29,7 @@ main{
 .clm-left{
   float: left;
   height: 75%;
-  width: 25%;
+  width: 24%;
   background-color: #DA70D6;
 }
 
@@ -32,11 +37,22 @@ main{
   float: left;
   height: 100%;
   width: 50%;
-  background-color: #8B008B
+  background-color: #8B008B;
+  margin: 0 1%
 }
 .clm-right{
   float: left;
   height: 100%;
-  width: 25%;
+  width: 24%;
   background-color: #DA70D6
+}
+
+.part{
+  height: 49%;
+  width: 100%;
+  background-color: violet;
+}
+
+.top{
+  margin-bottom: 2%;
 }
