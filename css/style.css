@@ -9,3 +9,8 @@ header{
   height: 200px;
   background-color: yellow;
 }
+
+main{
+  background-color: green;
+  height: 600px;
+}
